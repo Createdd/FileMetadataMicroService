@@ -3,7 +3,6 @@
 const express = require('express');
 const multer = require('multer');//node.js middleware to handle multipart data used for uploads
 const path = require('path');
-const babelReg = require('babel-register');
 const app = express();
 const port = process.env.PORT || 3000;
 const server = app.listen(port, () => {
