@@ -10,29 +10,22 @@ Created by Daniel Deutsch
 # FreeCodeCamp API Projects: File Metadata Microservice
 
 ##Watch it on Heroku:
-https://ddcreationstudios-filemletadata.herokuapp.com/
+https://ddcreationstudios-filemetadata.herokuapp.com/
 ## User stories:
-1
-2
-3
+1. I can submit a FormData object that includes a file upload.
+2. When I submit something, I will receive the file size in bytes within the JSON response.
 
 ## Example creation usage:
 
-```js
--
-```
+Upload file
 
 ## Example creation output:
 
-Search:
+
 ```js
--
+{
+"filename": "cameralense.jpeg",
+"size": 1243973,
+"type": "image/jpeg"
+}
 ```
-
-Latest:
-```js
--
-```
-
-
-####Thx to  for providing help
