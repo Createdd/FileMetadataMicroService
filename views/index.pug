@@ -1,0 +1,18 @@
+html
+ head
+   title File Metadata Microservice
+   link(href="https://fonts.googleapis.com/css?family=Nova+Script" rel="stylesheet")
+ body(style={color: 'white', background: 'black',  margin: '3em', 'font-family':'Nova Script'})
+   h1 User stories:
+   ol
+     li I can submit a FormData object that includes a file upload.
+     li When I submit something, I will receive the file size in bytes within the JSON response.
+   h1 Upload
+   form(role='form' action='/upload' method='post' enctype='multipart/form-data')
+    div(class='form-group')
+     input(type='file' name='data' id='input')
+     br
+     button(
+      style={color: 'black', background: 'green', 'font-family':'Arial'}
+      id='submit'
+     ) Upload
